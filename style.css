@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+  background-color: #24272E;
+  background-repeat: no-repeat;
+  background-size: auto;
+   
+}
+
+header{
+  background-color: white;
+  padding: 20px;
+}
+
+header > h1{
+  color: black;
+  text-align: center;
+  font-family: 'Space Mono', Monospace;
+
+.score-board{
+  background-color:#1b1d21;
+  border: 3px solid white;
+  border-radius: 6px;
+  width: 250px;
+  margin: 20px auto;
+  color: white;
+  font-size: 46px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: Monospace;
+  position: relative;
+}
+
+.badge{
+  background-color:#d39a21;
+  color: white;
+ font-size: 18px;
+ padding: 4px 12px;
+ border-radius: 4px;
+}
+
+#user-label{
+  position: absolute;
+  top: 30px;
+  left: -90px;
+}
+#computer-label{
+  position: absolute;
+  top: 30px;
+  right: -90px;
+}
+
+.result{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: Monospace;
+}
+
+.result > p{
+  text-align: center;
+  background-color: black;
+  margin: 20px 50px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.choices{
+  margin: 50px;
+  text-align: center;
+}
+
+.choice{
+  border: 4px solid white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 15px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.choice:hover:{
+  cursor: pointer;
+ 
+}
+.choice:hover:first-child{
+  background: #aa0000;
+}
+.choice:hover:nth-child(2){
+  background: #4f4f4f;
+}
+.choice:hover:nth-child(3){
+  background: #c9b100;
+}
+.choice:hover:last-child{
+  background: #5401be;
+}
+
+.choice > img{
+  width: 150px;
+  height: 150px;
+}
+
+#action-mensage{
+  text-align: center;
+  color: white;
+  font-family: Monospace;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
